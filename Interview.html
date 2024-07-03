@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Interview.css">
+        <script src="interview.js"></script>
+    </head>
+    
+    <body>
+        <div class="content-div">
+            <h1>Interview Preparation Questions</h1>
+            <div id="question-box" class="box" >
+                <h4>Introduction Question</h4>
+                <h3> </h3>
+                <div style="height: 30px;"></div>
+                <button id="vol-intro-button" tabindex="0"> 
+                    <img id="vol-intro" src="img/mute.png" alt = "Volume Button for Question Box" onclick="changeImageIntro()">
+                </button>
+                
+            </div>
+            <div style="height: 30px;"></div>
+            <div id="tips-box" class="box">
+                <h4> Tips to answer</h4>
+                <h5> Talk about your hobbies, past experiences, and goals and how it relates to the job</h5>
+                 <div style="height: 30px;"></div>
+                 <button id="vol-tip-button" tabindex="0">
+                    <img id="vol-tip" src="img/mute.png" alt = "Volume Button for Tip Box" onclick = changeImageTip()>
+                 </button>
+                <div style="height: 30px;"></div>
+            </div>
+            <div style="height: 30px;"></div>
+            <div style="width: 75%; margin: auto">
+                <div id="modify-text"  class="bottom" style="float: left;">
+                    <h4 style="float:left; width: 50%">Modify Text</h4>
+                    <button style="float:left; width: 25%">
+                        <img id = "minus-button" src="img/minus button .png" alt="Decrease Text Size" onclick="decreasefontsize()"  tabindex="0">
+                    </button>
+                    <button style="float:left; width: 25%">
+                        <img  id = "plus-button" src="img/plusbutton.png" alt="Increase Text Size" onclick="increasefontsize()"  tabindex="0">
+                    </button>
+                </div>
+                <button style="width: 49%; float: left;">
+                    <div id="next-question"  class="bottom" tabindex="0">
+                        <h4> Next Question</h4>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </body>
+
+</html>
